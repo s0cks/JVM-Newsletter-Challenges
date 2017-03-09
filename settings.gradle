@@ -1,0 +1,4 @@
+rootProject.name = 'jvm-challenges'
+include 'XkcdDisplay'
+findProject(':XkcdDisplay')?.name = 'xkcd-display'
+
